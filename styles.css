@@ -1,0 +1,23 @@
+/* Liz Ward Crafts styles */ 
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 5rem;
+    color: #333333;
+    background-color: #fafafa;
+    font-size: 1.125rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+} 
