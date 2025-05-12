@@ -14,10 +14,13 @@ h1 {
 }
 
 nav ul {
-    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
     gap: 2rem;
 } 
+
+.no-list-style {
+    list-style: none;
+}
