@@ -68,3 +68,20 @@ img {
     gap: 2rem;
     margin: 4rem 0 2rem 0;
 }
+
+.link-anchor {
+    text-decoration: none;
+}
+
+.link-text {
+    text-decoration: underline;
+}
+
+.icon {
+    width: 1rem;
+    vertical-align: -0.125rem;
+}
+
+.instagram-icon {
+    vertical-align: -0.25rem;
+}
