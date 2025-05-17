@@ -100,3 +100,10 @@ img {
     mask-repeat:no-repeat;
     mask-composite: intersect;
 }
+
+.index-header h1 {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color:bisque;
+    text-decoration-style: wavy;
+}
