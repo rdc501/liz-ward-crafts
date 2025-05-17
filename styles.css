@@ -85,3 +85,18 @@ img {
 .instagram-icon {
     vertical-align: -0.25rem;
 }
+
+.headshot {
+    width: 10rem;
+    height: 10rem;
+    background-image: url("liz-looking-down.jpg");
+    background-position: center;
+    background-size: cover;
+    mask: 
+    linear-gradient(to top,  transparent 0%, #fff 15% 85%, transparent 100%),
+    linear-gradient(to left, transparent 0%, #fff 15% 85%, transparent 100%);
+    mask-size: 110% 110%;
+    mask-position: center;
+    mask-repeat:no-repeat;
+    mask-composite: intersect;
+}
