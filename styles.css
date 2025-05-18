@@ -107,3 +107,13 @@ img {
     text-decoration-color:powderblue;
     text-decoration-style: wavy;
 }
+
+.about {
+    display: flex;
+    gap: 2rem;
+}
+
+.about .headshot {
+    width: 20rem;
+    height: 20rem;
+}
