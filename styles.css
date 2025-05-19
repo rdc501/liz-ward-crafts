@@ -62,11 +62,23 @@ img {
     border: 1px solid lightgray;
 }
 
-.image-montage {
+.image-row {
     display: flex;
     justify-content: center;
     gap: 2rem;
     margin: 4rem 0 2rem 0;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 4rem 0 2rem 0;
+    flex-wrap: wrap;
+}
+
+.image-grid img {
+    flex: 1 0 27%;
 }
 
 .link-anchor {
