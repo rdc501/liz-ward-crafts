@@ -86,6 +86,10 @@ img {
 
 .image-grid img {
     flex: 1 0 27%;
+    box-shadow: none;
+    border: none;
+    object-fit: contain;
+
 }
 
 .link-anchor {
