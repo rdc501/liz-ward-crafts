@@ -3,7 +3,6 @@
 body {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 5rem;
     color: #333333;
     background-color: #fafafa;
     font-size: 1.125rem;
@@ -16,7 +15,7 @@ h1 {
 }
 
 .index-title {
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: "Homemade Apple", cursive;
     font-weight: 400;
     font-style: normal;
@@ -55,6 +54,7 @@ nav ul {
     justify-content: center;
     gap: 2rem;
     padding-inline-start: 0;
+    flex-wrap: wrap;
 }
 
 .horizontal-list li {
@@ -74,6 +74,7 @@ img {
     justify-content: center;
     gap: 2rem;
     margin: 4rem 0 2rem 0;
+    flex-wrap: wrap;
 }
 
 .image-grid {
@@ -132,4 +133,14 @@ img {
 .about .headshot {
     width: 20rem;
     height: 20rem;
+}
+
+@media (min-width: 1000px) {
+    .index-title {
+        font-size: 4rem;
+    }
+
+    body {
+        padding: 2rem 5rem;
+    }
 }
