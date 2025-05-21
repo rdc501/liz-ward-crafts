@@ -43,6 +43,7 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    flex-wrap: wrap;
 } 
 
 .no-list-style {
@@ -126,13 +127,13 @@ img {
 }
 
 .about {
-    display: flex;
-    gap: 2rem;
+    padding: 0rem 2rem;
 }
 
 .about .headshot {
     width: 20rem;
     height: 20rem;
+    margin: 0 auto;
 }
 
 @media (min-width: 1000px) {
@@ -142,5 +143,14 @@ img {
 
     body {
         padding: 2rem 5rem;
+    }
+
+    .about {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .about .headshot {
+        margin-top: 1em;
     }
 }
