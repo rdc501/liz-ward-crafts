@@ -140,6 +140,16 @@ main {
     margin: 0 auto 2rem;
 }
 
+.amiguwhomi-cover {
+    display: block;
+    width: 20rem;
+    margin: 0 auto 2rem;
+}
+
+.buy-book-text {
+    text-align: center;
+}
+
 @media (min-width: 1000px) {
     .index-title {
         font-size: 4rem;
