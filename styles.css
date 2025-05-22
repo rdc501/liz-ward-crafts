@@ -2,7 +2,7 @@
 
 body {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 1rem auto;
     color: #333333;
     background-color: #fafafa;
     font-size: 1.125rem;
@@ -42,9 +42,28 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 2rem;
     flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 0;
 } 
+
+nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #333333;
+    column-gap: 2rem;
+    row-gap: 0;
+}
+
+nav a:hover {
+    text-underline-offset: 0.25rem;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: powderblue;
+}
 
 .no-list-style {
     list-style: none;
@@ -151,6 +170,10 @@ main {
 }
 
 @media (min-width: 1000px) {
+    nav a {
+        font-size: 1.25rem;
+    }
+
     .index-title {
         font-size: 4rem;
     }
